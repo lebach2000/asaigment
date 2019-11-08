@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="asaigment.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:asaigment"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Background="White">
+            <Image Source="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/123740332/original/99ec1c2a3bffcfbd3c852393b2cad54a08f670a7/create-anime-background-style.jpg" />
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Margin="20" FontSize="40" HorizontalAlignment="Center">
+                Welcome Back! Please <Hyperlink x:Name="hypLogin" Click="HypLogin_Click">Login</Hyperlink> or 
+                <Hyperlink x:Name="hypRegister" Click="HypRegister_Click">Register</Hyperlink>
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
